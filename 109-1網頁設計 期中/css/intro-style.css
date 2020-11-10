@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=M+PLUS+1p:wght@800&family=Sawarabi+Mincho&display=swap");
+
+@font-face {
+    font-family: 'Kosugi Maru', sans-serif;
+    font-family: 'M PLUS 1p', sans-serif;
+    font-family: 'Sawarabi Mincho', sans-serif;
+    
+}
+
+::selection {
+	background: #345961;
+	color: #FFFFFF;
+}
+*{
+    /* border: 1px solid #333; */
+    font-family: 'Kosugi Maru', sans-serif;
+}
+html,body{
+    margin: 0;
+    padding: 0;
+
+}
+
+html{
+    background-color: white;
+    /* border: 1px solid #333; */
+}
+
+*,*::before,*:after{
+    box-sizing: inherit;
+}
+
+
+/* h1{
+    font-size: 40px;
+    margin-left: 20px;
+} */
+
+.navbar {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    /* background-color: #172c31 ;  */
+}
+  
+.navbar h1 {
+    text-align: center;
+    color: #ffffff;
+    width: fit-content;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+  
+.logo {
+    letter-spacing: 5px;
+}
+  
+.logo-link {
+    text-decoration: none;
+}
+  
+.navbar-nav {
+    float: right;
+    margin-top: -40px;
+    margin-right: 50px;
+}
+  
+.nav-item {
+    display: inline-block;
+    padding: 0px 15px;
+}
+  
+.nav-link {
+    color: #ffffff;
+    text-decoration: none;
+}
+  
+.nav-link:hover {
+    color: #345961;
+    -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s;
+}
+
+
+
+.Contain{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.picture img{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: -1;
+
+}
+
+.Topic{
+    color: #fff;
+    text-align: justify;    
+}
+
+.feature{
+    display:flex;  
+    justify-content: center;
+    
+
+}
+
+.feature_text{
+    border:2px solid;
+    padding: 10px 10px 10px 10px;
+}
+
+.contact{
+    margin-top: 60px;
+    margin-bottom: 200px;
+    text-align:  center; 
+}
+.contact h2{
+    font-family: 'M PLUS 1p', sans-serif;
+}
+
+.text{
+    max-width: 30%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    letter-spacing: 0.2em;
+    line-height: 1.8em;
+}
+.test{
+    width: 1600x;
+    height: 900px;
+}
+
+.dog-box{
+    background-color: white;
+    color: #345961;
+    z-index:2;
+    
+}
+
+h3{
+
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+    /* text-align: center; */
+    padding-left: 30%;
+    
+    
+
+}
+
+.Box1,.Box2{
+    display: flex;
+    justify-content: space-between;
+    width: calc(100%/4);
+    display: flex;
+    align-items: center;
+    margin-left: 12.5%;
+    /* transform: translateX(-100%); */
+    
+
+
+}
+.text1, .text2,  .text3, .text4 {
+    height: 270px;
+    width: 270px;
+    color: #345961;
+    /* margin: 5px; */
+    padding: 20px;
+    text-align: justify;
+    letter-spacing: 0.2em;
+    line-height: 1.5em;
+}
+
+.picture1,.picture2,.picture3,.picture4{
+    
+    height: 270px;
+    width: 270px;
+
+}
+
+footer {
+    background-color: #345961;
+    text-align: center;
+    padding: 20px;
+    margin-top: 120px;
+    color: #fff;
+  }
+  
+  footer hr {
+    width: 30%;
+  }
+  
+  footer li {
+    display: inline-block;
+    padding: 0;
+  }
+  
+  footer a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    color: #85B9C3;
+    -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s;
+  }
+  
+  footer p {
+    font-size: 0.9em;
+    font-weight: 200;
+    letter-spacing: 3px;
+    line-height: 1.8em;
+  }
+  
+  .footer-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 30%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    padding: 0;
+    margin-left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  
+  .footer-nav-li {
+    max-width: 20%;
+  }
+  
+  .footer-content {
+    max-width: 450px;
+    margin-left: 50%;
+    line-height: 1.8em;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    opacity: 0.8;
+    max-width: 30%;
+  }
+  
+  .Copyright {
+    margin-top: 20px;
+    letter-spacing: 0.3em;
+    font-size: 0.8em;
+    max-width: 30%;
+    margin-left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  
+
+
